@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DarkModeToggle from './components/DarkModeToggle';
-import Weather from './components/weather';
+import Weather from './components/Weather';
 
 const App = () => {
     const [darkMode, setDarkMode] = useState(false);
